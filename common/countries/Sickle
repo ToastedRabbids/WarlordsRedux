@@ -1,0 +1,1082 @@
+focus_tree = {
+	id = sickle_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = germany
+		icon = GFX_goal_generic_major_war
+		x =25
+		y = 1
+		#relative_position_id = AST_empower_the_workers
+
+        available = {
+			 #NOT = { is_in_faction_with = USA }
+
+		}
+		bypass = {
+		}
+
+
+		cost = 1
+		#prerequisite = { focus = AST_workers_paradise }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+	    }
+    }		
+	focus = {
+		id = a_new_reich
+		icon = GFX_goal_generic_major_war
+		x = 9
+		y = 1
+		relative_position_id = germany
+
+        available = {
+			 #NOT = { is_in_faction_with = USA }
+
+		}
+		bypass = {
+		}
+
+
+		cost = 1
+		prerequisite = { focus = germany }
+	        mutually_exclusive = { focus = room_for_another }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			}
+
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+
+	focus = {
+		id = expand_military_budget
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 1
+		relative_position_id = a_new_reich
+
+available = {
+			#NOT = { is_in_faction_with =  }
+			#NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = a_new_reich }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+		}
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+}
+	focus = {
+		id = the_standard_option
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = expand_military_budget
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = expand_military_budget }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+    }
+
+	focus = {
+		id = new_parts
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = the_standard_option
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = the_standard_option }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+
+	focus = {
+		id = streamlined_designs
+		icon = GFX_goal_generic_major_war
+		x =-1
+		y = 1
+		relative_position_id = new_parts
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = new_parts }
+	    mutually_exclusive = { focus = varied_designs }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+			
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+    }
+
+	focus = {
+		id = varied_designs
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = new_parts
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = new_parts }
+	    mutually_exclusive = { focus = streamlined_designs }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+		
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+
+	focus = {
+		id = a_battle_for_any_tank
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = varied_designs
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = varied_designs }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+
+	focus = {
+		id = a_tank_for_any_battle
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = streamlined_designs
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = streamlined_designs }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+
+	focus = {
+		id = a_modern_army
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 1
+		relative_position_id = expand_military_budget
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = expand_military_budget }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+	focus = {
+		id = increased_production
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = a_tank_for_any_battle
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = a_tank_for_any_battle focus = a_battle_for_any_tank }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+	focus = {
+		id = purge_richmo
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 2
+		relative_position_id = a_new_reich
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = a_new_reich }
+	   
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = find_common_ground
+		icon = GFX_goal_generic_major_war
+		x = -9
+		y = 2
+		relative_position_id = a_new_reich
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = a_new_reich focus = room_for_another }
+        mutually_exclusive = { focus = purge_sickle focus = purge_richmo }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = develop_new_tactics
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = a_modern_army
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = a_modern_army }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = blitzkreig
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = develop_new_tactics
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = develop_new_tactics }
+	    mutually_exclusive = { focus = firepower }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = blitzkreig_adv
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = blitzkreig
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = blitzkreig }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = firepower
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 1
+		relative_position_id = develop_new_tactics
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = develop_new_tactics }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = firepower_adv
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		relative_position_id = firepower
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = firepower }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = wehrmacht_forces
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 1
+		relative_position_id = expand_military_budget
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = expand_military_budget }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = support_trucks
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		relative_position_id = wehrmacht_forces
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = wehrmacht_forces }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = support_companies
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1
+		relative_position_id = wehrmacht_forces
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = wehrmacht_forces }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = the_luftwaffe
+		icon = GFX_goal_generic_major_war
+		x = 52
+		y = 4 
+		relative_position_id = 
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus =  }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = 
+		icon = GFX_goal_generic_major_war
+		x = 3
+		y = 5
+		relative_position_id = 
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus =  }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = room_for_another
+		icon = GFX_goal_generic_major_war
+		x = -9
+		y = 1
+		relative_position_id = germany
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = germany }
+        mutually_exclusive = { focus = a_new_reich }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+focus = {
+		id = purge_sickle
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 2
+		relative_position_id = room_for_another
+
+available = {
+			NOT = { is_in_faction_with =  }
+			NOT = { has_country_flag =  }
+		}
+		bypass = {
+		}
+
+
+		cost = 10
+		prerequisite = { focus = room_for_another }
+	    mutually_exclusive = { focus = find_common_ground }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				target = 
+				type = 
+				expire = 0 
+			}
+		}
+	
+	ai_will_do = {
+			factor = 1
+			modifier = {
+				JAP = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+
+
