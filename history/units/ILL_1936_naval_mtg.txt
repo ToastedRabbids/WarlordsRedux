@@ -1,0 +1,40 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 6314 # Danzig
+		task_force = {				
+			name = "Battleships, Battle Force"		# CO: Snyder
+			location = 6314 # Danzig
+			### Battleship Division 1 ###			
+			ship = { name = "Illusive Ship" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ILL version_name = "Illusive Class" } } }
+			ship = { name = "NCR Bois" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ILL version_name = "NCR Class" } } }	
+		 	ship = { name = "NCR Bois 1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ILL version_name = "NCR Class" } } }	
+			ship = { name = "NCR Bois 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ILL version_name = "NCR Class" } } }	
+			ship = { name = "NCR Bois 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ILL version_name = "NCR Class" } } }	
+			ship = { name = "NCR Bois 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ILL version_name = "NCR Class" } } }	
+			ship = { name = "NCR Bois 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ILL version_name = "NCR Class" } } }	
+			ship = { name = "NCR Bois 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ILL version_name = "NCR Class" } } }		
+			ship = { name = "Reid Sub" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ILL version_name = "Reid Subs" } } }
+			ship = { name = "Reid Dom" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ILL version_name = "Reid Subs" } } }
+			ship = { name = "Bruddas" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ILL version_name = "Brudda Cruiser" } } }	
+			ship = { name = "HMS Knuckles" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ILL version_name = "Brudda Cruiser" } } }	
+			ship = { name = "Uganda" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ILL version_name = "Brudda Cruiser" } } }	
+			ship = { name = "HMS Sonic" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ILL version_name = "Brudda Cruiser" } } }	
+			ship = { name = "HMS Repulse" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ILL version_name = "Grizzly Cruiser" } } }
+			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ILL version_name = "Grizzly Cruiser" } } }
+			ship = { name = "Grizzly Cruiser" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ILL version_name = "Grizzly Cruiser" } } }
+			ship = { name = "Black Bear Crusier" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ILL version_name = "Grizzly Cruiser" } } }
+			ship = { name = "BIG BEAR" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = ILL version_name = "BIG BEAR" } } }
+			 	ship= { name = "Illusives Personal Carriers" definition = carrier pride_of_the_fleet = yes start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ILL version_name = "Illusives Personal Carriers" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "ILL" amount = 3 }			
+					cv_CAS_equipment_1 =  { owner = "ILL" amount = 3 }					
+					cv_nav_bomber_equipment_1 =  { owner = "ILL" amount = 3 }
+					}
+				}
+			}
+		}
+	}
+}

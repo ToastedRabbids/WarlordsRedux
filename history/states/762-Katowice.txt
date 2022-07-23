@@ -1,0 +1,29 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		506 6464
+	}
+	manpower=2453000
+	resources={
+		steel=10 # was: 60
+		aluminium=7 # was: 20
+	}
+	state_category = large_city
+	history={
+		victory_points = {
+			6464 5
+		}
+		owner = SIC
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 4
+			#arms_factory = 0
+		}
+		add_core_of = SIC
+		add_core_of = SIL
+		add_core_of = RED
+	}
+
+	local_supplies=0.0 
+}

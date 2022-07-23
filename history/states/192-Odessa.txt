@@ -1,0 +1,47 @@
+
+state={
+	id=192
+	name="STATE_192"
+	resources={
+		steel=15.000
+		oil=10.000
+	}
+
+	history={
+		owner = TOR
+		victory_points = {
+			11670 30
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 6
+			11670 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = TOR
+		add_core_of = RED
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		476 741 754 3575 3738 3757 6455 6480 9423 9435 9481 9576 9698 9714 11670 11703 
+	}
+	manpower=3486238
+	buildings_max_level_factor=1.000
+	state_category= megalopolis
+	local_supplies=6.000
+}

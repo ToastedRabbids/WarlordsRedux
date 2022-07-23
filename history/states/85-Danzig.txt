@@ -1,0 +1,43 @@
+state={
+	id=85
+	name="STATE_85"
+	manpower = 4466730
+	resources={
+		steel=11.000
+		aluminium=11.000
+		tungsten=11
+		oil=11.000
+	}
+	
+	state_category = metropolis
+	history={
+		owner = GRI
+		victory_points = {
+			362 25
+		}
+		
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 1
+			dockyard = 4
+			362 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = GRI
+		add_core_of = DNZ
+		add_core_of = KSH
+		add_core_of = RED
+		1938.3.12 = {
+			add_claim_by = GER
+		}
+	}
+
+	provinces={
+		362
+	}
+
+	local_supplies=10.0 
+}

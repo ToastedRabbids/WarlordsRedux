@@ -1,0 +1,40 @@
+state={
+	id=837
+	name="Koopa Town"
+	resources={
+		tungsten=20.000
+		aluminium=10.000
+	}
+
+	history={
+		victory_points = {
+			422 15
+		}
+		owner = YOS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = YOS
+		add_core_of = RED
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		422 474 513 572 3412 11441 
+	}
+	manpower=1200084
+	buildings_max_level_factor=1.000
+	local_supplies=6.000
+	state_category=large_town
+}

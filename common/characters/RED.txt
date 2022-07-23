@@ -1,0 +1,594 @@
+characters={
+	RED_Chiam_Potok={
+		name="Chiam Potok"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_RED_chiam_potok.dds"
+			}
+			army={
+				large="gfx/leaders/RED/portrait_RED_chiam_potok.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer media_personality politically_connected guerilla_fighter }
+			skill=5
+			attack_skill=3
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=-1
+		}
+	advisor={
+		slot = political_advisor
+		idea_token = chiam_potok
+		allowed  = {
+			original_tag  = RED
+			}
+			traits  = {
+				silent_workhorse 
+			}
+		}
+	advisor={
+		slot = high_command
+		idea_token = chiam_potok_air
+		ledger = air
+		allowed = {
+			original_tag = RED
+			}
+			traits = {
+			air_air_superiority_2 
+				}
+				cost = 100
+			}
+		}
+
+	RED_Doge={
+		name="Doge"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_RED_doge.dds"
+			}
+			army={
+				large="gfx/leaders/RED/portrait_RED_doge.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless infantry_officer infantry_leader trickster }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=dogeism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	advisor={
+		slot = political_advisor
+		idea_token = doge
+		allowed  = {
+			original_tag  = RED
+			}
+			traits  = {
+				popular_figurehead
+			}
+		}
+	advisor={
+		slot = high_command
+		idea_token = doge_army
+		ledger = army
+		allowed = {
+			original_tag = RED
+			}
+			traits = {
+			army_infantry_2
+				}
+				cost = 100
+	}
+}
+	RED_redacted={
+		name="Redacted"
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/GFX_RED_Redacted.dds"
+			}
+			army={
+				small="gfx/interface/ideas/idea_RED_Redacted.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless media_personality trickster offensive_doctrine organisational_leader inspirational_leader }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=redactedism_democratic
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=redactedism_fascism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=redactedism_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	advisor={
+		slot = high_command
+		idea_token = Redacted
+		ledger = army
+		allowed = {
+			original_tag = RED
+			}
+			traits = {
+			army_logistics_2
+				}
+				cost = 100
+	}
+}
+	RED_urn={
+		name="URN"
+		portraits={
+			civilian={
+				large="gfx/leaders/RED/GFX_RED_URN.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=anarchist_communism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RED_dogeler_von_müller={
+		name="Dogeler von Müller"
+		portraits={
+			army={
+				small="GFX_idea_Dogler"
+			}
+			army={
+				large="gfx/leaders/RED/GFX_RED_Dogeler.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless armor_officer war_hero panzer_leader }
+			skill=5
+			attack_skill=5
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=-1
+		}
+	advisor={
+		slot = high_command
+		idea_token = Dogeler
+		ledger = army
+		allowed = {
+			original_tag = RED
+			}
+			traits = {
+			army_armored_2
+				}
+				cost = 100
+	}
+		advisor = {
+			slot = theorist
+			traits = { military_theorist }
+		allowed = {
+			original_tag = RED
+			}
+			ledger = army
+			cost = 50
+		}
+}
+	RED_andrzej_duda={
+		name="Andrzej Duda"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/RED/portrait_RED_andrzej_duda.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless harsh_leader politically_connected }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	RED_władysław_sikorski={
+		name="Władysław Sikorski"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/RED/portrait_RED_wlad.png"
+			}
+		}
+		corps_commander={
+			traits={ defensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	RED_the_trumspter={
+		name="The Trumspter"
+		portraits={
+			army={
+				small="GFX_idea_george_patton"
+			}
+			army={
+				large="gfx/leaders/RED/portrait_RED_trumpster.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=3
+			attack_skill=6
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		advisor={
+			slot = high_command
+			idea_token = Trumpster
+			ledger = air
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				air_air_combat_training_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	RED_class_d={
+		name="Class D"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/RED/portrait_RED_class_d.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_SPA_falangist_loyalties disgruntled substance_abuser substance_addict hidden_sympathies }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	RED_Asian_Potok={
+		name= "Asian Potok"
+		portraits={
+			army={
+				small="GFX_idea_asian_potok"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Asian_Potok
+			allowed  = {
+				original_tag  = RED
+			}
+			traits  = {
+				captain_of_industry 
+			}
+		}
+	}
+	RED_Amphora={
+		name= "Amphora"
+		portraits={
+			army={
+				small="GFX_idea_amphora_based"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Amphora
+			allowed  = {
+				original_tag  = RED
+			}
+			traits  = {
+				prince_of_terror
+			}
+		}
+	}
+	RED_Doge_Brandon_Johannesburg={
+		name= "Doge Brandon Johannesburg"
+		portraits={
+			army={
+				small="GFX_idea_DBJ_WI"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = DBJ
+			allowed  = {
+				original_tag  = RED
+			}
+			traits  = {
+				war_industrialist
+			}
+		}
+	}
+	RED_Albert={
+		name= "Albert Potok"
+		portraits={
+			army={
+				small="GFX_idea_Albert"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Albert
+			allowed  = {
+				original_tag  = RED
+			}
+			traits  = {
+				technocrat
+			}
+		}
+	}
+	RED_Depressed_Potok={
+		name= "Depressed Potok"
+		portraits={
+			army={
+				small="GFX_idea_Sad_Potok"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = depressed_potok
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	RED_Cheerful_Potok={
+		name= "Cheerful Potok"
+		portraits={
+			army={
+				small="GFX_idea_Happy_Potok"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = cheerful_potok
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+	RED_King_Robert_Potok ={
+		name= "King Robert Potok"
+		portraits={
+			army={
+				small="GFX_idea_robert_potok"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = robert_potok
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	RED_Cheems ={ 
+		name= "Cheems"
+		portraits={
+			army={
+				small="GFX_idea_Cheems"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = Cheems
+			ledger = air
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				air_bomber_interception_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		advisor = {
+			slot = theorist
+			traits = { air_warfare_theorist }
+		allowed = {
+			original_tag = RED
+			}
+			ledger = air
+			cost = 50
+		}
+	}
+
+	RED_Aviator_Potok ={ 
+		name= "Aviator Potok"
+		portraits={
+			army={
+				small="GFX_idea_AviatorPotok"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = Aviator_Potok
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				air_close_air_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	RED_SCP173 ={ 
+		name= "SCP173"
+		portraits={
+			army={
+				small="GFX_idea_SCPpeanut"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = SCP173
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				air_tactical_bombing_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	RED_Wlad ={ 
+		name= "Wladyslaw Anders"
+		portraits={
+			army={
+				small="GFX_portrait_POL_wladyslaw_anders_small"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = Anders
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				air_chief_ground_support_2 
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	RED_Will_Smith={
+		name= "Will Smith"
+		portraits={
+			army={
+				small="GFX_idea_africa_generic_navy_1"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = will_smith
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				navy_chief_decisive_battle_2 
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		advisor = {
+			slot = high_command
+			traits = { navy_fleet_logistics_2 }
+			ledger = navy
+			cost = 100
+		}
+		advisor = {
+			slot = theorist
+			traits = { naval_theorist }
+		allowed = {
+			original_tag = RED
+			}
+			ledger = navy
+			cost = 50
+		}
+	}
+
+
+	RED_Chris_Rock={
+		name= "Chris Rock"
+		portraits={
+			army={
+				small="GFX_idea_africa_generic_navy_1"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = chris_rock
+			allowed = {
+				original_tag = RED
+			}
+			traits = {
+				navy_anti_submarine_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}

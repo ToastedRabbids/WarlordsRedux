@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Spectre's Love Letter
+	SpriteType = { 
+		name = "spectres_love_letter-1"
+		texturefile = "gfx/interface/events/love-event/spectres_love_letter-1.dds"
+	}
+
+ 
+ }

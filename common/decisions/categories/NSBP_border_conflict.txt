@@ -1,0 +1,16 @@
+NSBP_border_conflict_decision_category = {
+	icon = border_war
+	picture = generic_border_conflicts
+	priority = 1
+
+	visible = {
+		is_ai = no
+}
+	allowed = {
+			 has_idea = warlord_net
+			 date = 1937.1.1
+			}
+	available = {
+	}
+
+}

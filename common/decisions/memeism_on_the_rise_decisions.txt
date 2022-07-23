@@ -1,0 +1,22 @@
+memeism_on_the_rise = {
+	its_gamer_time = {
+		icon = decision_icon_its_gamer_time
+		cost = 75
+		fire_only_once = yes
+		visible = {
+			NOT = { has_government = memeism }
+OR = {
+				memeism > 0.4
+
+		}
+	}
+		complete_effect = {
+		set_politics = {
+			ruling_party = memeism
+			elections_allowed = yes
+		}
+		add_stability = -0.02
+
+		}
+	}
+}

@@ -1,0 +1,40 @@
+state={
+	id=97
+	name="STATE_97"
+	resources={
+		steel=5.000
+		aluminium=5.000
+		oil=10.000
+	}
+
+	history={
+		owner = PON
+		victory_points = {
+			11301 3
+		}
+		victory_points = {
+			3393 3
+		}
+		victory_points = {
+			3254 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			air_base = 3
+
+		}
+		add_core_of = PON
+		add_core_of = RED
+
+	}
+
+	provinces={
+		290 347 400 3254 11247 11274 11301 11329 11357 
+	}
+	manpower=1157200
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=5.0 
+}

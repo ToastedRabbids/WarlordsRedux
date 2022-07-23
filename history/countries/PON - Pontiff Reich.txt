@@ -1,0 +1,260 @@
+capital = 5
+
+OOB = "PON_1936"
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "PON_1936_naval_mtg"
+	else = {
+		set_naval_oob = "PON_1936_naval_mtg"
+	}
+}
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	cv_CAS1 = 1
+	CAS1 = 1
+	basic_train = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		early_ship_hull_heavy = 1
+		dp_secondary_battery = 1
+	}
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	fascism = 90
+	communism= 10
+}
+
+add_ideas = {
+	warlord_net
+	pon_fox
+}
+
+set_convoys = 550
+
+
+recruit_character = PON_Pontiff
+recruit_character = PON_Thrawn
+recruit_character = PON_Erwin_Rommel
+recruit_character = PON_Zhu_De
+recruit_character = PON_Yuming
+recruit_character = PON_Karl_Donitz
+recruit_character = PON_erich_raeder
+recruit_character =	PON_gunther_lutjens
+recruit_character = PON_vasil_boydev
+recruit_character = PON_wang_yaowu
+recruit_character = PON_alfred_saalwachter
+recruit_character = PON_mao_zedong
+recruit_character = PON_hiroaki_abe
+recruit_character = PON_atanas_shalapatov
+recruit_character = PON_konstantin_lukash
+recruit_character = PON_Koga
+
+
+
+
+create_equipment_variant = {
+	name = "Pontiff Class"					
+	type = ship_hull_heavy_1
+	name_group = ROM_BB_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bb_1
+		front_1_custom_slot = empty
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+
+create_equipment_variant = {
+	name = "Pontiffs Personal Carriers"
+	type = ship_hull_carrier_conversion_bb
+	name_group = ROM_CV_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space
+		fixed_ship_deck_slot_2 = ship_deck_space
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		mid_1_custom_slot = ship_deck_space
+		}
+	}
+
+create_equipment_variant = {
+	name = "Donitz Class"				
+	type = ship_hull_light_2
+	name_group = ROM_DD_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_2
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = ship_sonar_2
+		fixed_ship_engine_slot = light_ship_engine_2
+		fixed_ship_torpedo_slot = ship_torpedo_2
+		mid_1_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+create_equipment_variant = {			
+	name = "Pboats"
+	type = ship_hull_submarine_1
+	name_group = GER_SS_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = empty
+		}
+	}
+
+create_equipment_variant = {
+	name = "Iron Cruiser"
+	type = ship_hull_cruiser_2
+	name_group = ROM_CL_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_armor_slot = ship_armor_cruiser_3
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		front_1_custom_slot = ship_light_medium_battery_2
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = ship_anti_air_1
+		rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+
+create_equipment_variant = {
+	name = "Gloria Prussia"
+	type = ship_hull_cruiser_2
+	name_group = ROM_CA_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_medium_battery_2
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_2
+		fixed_ship_armor_slot = ship_armor_cruiser_3
+		mid_1_custom_slot = ship_airplane_launcher_1
+		mid_2_custom_slot = ship_anti_air_1
+		rear_1_custom_slot = ship_medium_battery_2
+		}
+	}
+
+create_equipment_variant = {
+	name = "BIG EAGLE"
+	type = ship_hull_heavy_1
+	name_group = GER_BC_HISTORICAL
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_2
+		fixed_ship_secondaries_slot = ship_secondaries_1
+		fixed_ship_armor_slot = ship_armor_bc_2
+		front_1_custom_slot = ship_anti_air_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+}

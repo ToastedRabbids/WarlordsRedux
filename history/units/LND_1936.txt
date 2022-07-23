@@ -1,0 +1,220 @@
+division_template = {
+	name = "New Ottoman Army"
+	division_names_group = TUR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 } 
+	}
+}
+
+division_template = {
+	name = "Camels"  
+	division_names_group = TUR_CAV_01
+
+	regiments = {
+		camelry = { x = 0 y = 0 }
+		camelry = { x = 0 y = 1 }
+		camelry = { x = 1 y = 0 }
+		camelry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mecha Camels"
+
+	division_names_group = TUR_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Ye Supporters"  
+	division_names_group = RAJ_INF_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	##### Ejército de Cuba #####
+	division= {	# "1st Ottoman Squad"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "New Ottoman Army"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "Land's Camels"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "Camels" 
+		start_experience_factor = 0.1
+
+	}
+	division= {	# "Land's Camels"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "Camels" 
+		start_experience_factor = 0.1
+
+	}
+	division= {	# "The Achmed"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "Mecha Camels" 
+		start_experience_factor = 0.1
+
+
+	}
+	
+	division= {	# "1st Ottoman Squad"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "New Ottoman Army"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "1st Ottoman Squad"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "New Ottoman Army"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "1st Ottoman Squad"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "New Ottoman Army"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "Ye Gang"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "Ye Supporters"
+		start_experience_factor = 0.1
+
+	}
+
+	division= {	# "Land's Camels"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "Camels" 
+		start_experience_factor = 0.1
+
+	}
+
+	division= {	# "Land's Camels"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11427  # Krakow
+		division_template = "Camels" 
+		start_experience_factor = 0.1
+
+	}
+
+
+	##### No Notable Naval Forces #####
+}
+
+##### AIR WINGS #####
+air_wings = {
+    91 = {
+        fighter_equipment_0 = {
+            owner = "BOX"
+            amount = 10
+        }
+    }
+}
+
+air_wings = {
+    91 = {
+        CAS_equipment_1 = {
+            owner = "BOX"
+            amount = 3
+        }
+    }
+}
+
+air_wings = {
+    91 = {
+        tac_bomber_equipment_0 = {
+            owner = "BOX"
+            amount = 5
+        }
+    }
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "LND"
+		}
+		requested_factories = 2
+		progress = 0.54
+		efficiency = 100
+	}
+}

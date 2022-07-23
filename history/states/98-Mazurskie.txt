@@ -1,0 +1,32 @@
+state={
+	id=98
+	name="STATE_98"
+	manpower = 3322100
+	resources={
+		steel=7.000
+		aluminium=7.000
+		tungsten=7
+		rubber=7.000
+	}
+	
+	state_category = large_city
+	history={
+		victory_points = {
+			3230 15
+		}
+		owner = GRI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 2
+		}
+		add_core_of = GRI
+		add_core_of = RED
+	}
+
+	provinces={
+		548 3230 6259 6321 6401 6567 9290 9316 11515 
+	}
+
+	local_supplies=7.0 
+}

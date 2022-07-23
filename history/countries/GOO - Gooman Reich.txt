@@ -1,0 +1,227 @@
+capital = 96
+
+OOB = "GOO_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	basic_train = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		early_carrier = 1
+		basic_carrier = 1
+		transport = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_battlecruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		basic_ship_hull_heavy = 1
+		dp_secondary_battery = 1
+	}
+}
+
+set_politics = {
+	ruling_party = memeism 
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	fascism = 10
+	memeism= 90
+}
+
+add_ideas = {
+	warlord_net
+	goo_thug
+}
+
+set_convoys = 5
+
+
+create_country_leader = {
+	name = "Boogle"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_GOO_Gooman.dds"
+	expire = "1965.1.1"
+	ideology = trollism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Boogle"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_GOO_Gooman.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Boogle"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_GOO_Gooman.dds"
+	expire = "1965.1.1"
+	ideology = anarchism
+	traits = {
+	}
+}
+
+
+
+create_field_marshal = {
+	name = "Boogle"
+	portrait_path = "gfx/leaders/GOO/portrait_GOO_Gooman.dds"
+	traits = { infantry_officer politically_connected trait_reckless infantry_leader harsh_leader }
+	skill = 5
+	attack_skill = 5
+    defense_skill = 5
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Tyrell Hoglocks"
+	portrait_path = "gfx/leaders/GOO/portrait_GOO_Tyrell.dds"
+	traits = { armor_officer panzer_leader politically_connected trait_reckless }
+	skill = 5
+	attack_skill = 5
+    defense_skill = 4
+    planning_skill = 5
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Crenshaw Griffin"
+	portrait_path = "gfx/leaders/GOO/portrait_GOO_Crenshaw.dds"
+	traits = { infantry_leader infantry_expert }
+	skill = 5
+	attack_skill = 5
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sam Hyde"
+	portrait_path = "gfx/leaders/GOO/portrait_GOO_Hyde.dds"
+	traits = { brilliant_strategist media_personality skilled_staffer trickster }
+	skill = 5
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Dyshawn Hussein Cumberbatch"
+	portrait_path = "gfx/leaders/GOO/portrait_GOO_Dyshawn.dds"
+	traits = { inflexible_strategist cavalry_leader }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Hog Rider"
+	portrait_path = "gfx/leaders/GOO/portrait_GOO_Hog.dds"
+	traits = { cavalry_leader }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Jarnell Demon Israel"
+	portrait_path = "gfx/leaders/GOO/portrait_GOO_Jarnell.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Jerome Lorell Freeman"
+	portrait_path = "gfx/leaders/GOO/portrait_GOO_Jerome.dds"
+	traits = { trait_mountaineer }
+	skill = 1
+	attack_skill = 4
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}

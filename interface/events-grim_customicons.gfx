@@ -1,0 +1,33 @@
+spriteTypes = { 
+	##Icon For: The Election
+	SpriteType = { 
+		name = "the_election-1026"
+		texturefile = "gfx/interface/events/grim-event/the_election-1026.dds"
+	}
+
+	##Icon For: Progressive Law Code 0109 Passes
+	SpriteType = { 
+		name = "progressive_law_code_0109_passes-745"
+		texturefile = "gfx/interface/events/grim-event/progressive_law_code_0109_passes-745.dds"
+	}
+
+	##Icon For: Assassination of Governor Carl Marks
+	SpriteType = { 
+		name = "assassination_of_governor_carl_marks-718"
+		texturefile = "gfx/interface/events/grim-event/assassination_of_governor_carl_marks-718.dds"
+	}
+
+	##Icon For: Kujou Sara recovers
+	SpriteType = { 
+		name = "kujou_sara_recovers-958"
+		texturefile = "gfx/interface/events/grim-event/kujou_sara_recovers-958.dds"
+	}
+
+	##Icon For: Quasi Day
+	SpriteType = { 
+		name = "quasi_day-889"
+		texturefile = "gfx/interface/events/grim-event/quasi_day-889.dds"
+	}
+
+ 
+ }

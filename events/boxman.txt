@@ -1,0 +1,152 @@
+add_namespace = boxman
+
+#National Pet Day
+country_event = {
+	id = boxman.1
+	title = boxman.1.t
+	desc = boxman.1.d
+
+	picture = national_pet_day-707
+	is_triggered_only = yes
+	option = {
+		name = boxman.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 50
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Darth Revan's Speech
+country_event = {
+	id = boxman.2
+	title = boxman.2.t
+	desc = boxman.2.d
+
+	picture = darth_revans_speech-987
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = boxman.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 100
+
+army_experience = 10
+
+
+add_command_power = 50
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Assassination of Sir Meows Alot
+country_event = {
+	id = boxman.3
+	title = boxman.3.t
+	desc = boxman.3.d
+
+	picture = assassination_of_sir_meows_alot-718
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = boxman.3.a
+		ai_chance = { factor = 1 }
+		add_political_power = -150
+
+add_command_power = -50
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Trial of the 7
+country_event = {
+	id = boxman.4
+	title = boxman.4.t
+	desc = boxman.4.d
+
+	picture = trial_of_the_7-909
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = boxman.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = 0.20
+
+add_political_power = -100
+
+add_command_power = 10
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = boxman.4.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = -0.20
+
+add_political_power = 100
+
+add_command_power = -50
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Armory raided
+country_event = {
+	id = boxman.5
+	title = boxman.5.t
+	desc = boxman.5.d
+
+	picture = armory_raided-939
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = boxman.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 100
+
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 100
+    producer = BOX
+}
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+}

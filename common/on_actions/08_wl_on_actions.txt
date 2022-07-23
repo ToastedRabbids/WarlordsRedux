@@ -1,0 +1,249 @@
+on_actions = {
+    on_startup = {
+            effect = {
+                    RED = {
+                        country_event = { id = redacted.2 days = 50 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    RED = {
+                        country_event = { id = redacted.3 days = 225 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    RED = {
+                        country_event = { id = redacted.4 days = 310 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    RED = {
+                        country_event = { id = redacted.5 days = 365 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    SIC = {
+                        country_event = { id = sickle.1 days = 94 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    SIC = {
+                        country_event = { id = sickle.2 days = 310 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    SIC = {
+                        country_event = { id = sickle.3 days = 421 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    SIC = {
+                        country_event = { id = sickle.4 days = 121 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    SIC = {
+                        country_event = { id = sickle.5 days = 1271 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    SIC = {
+                        country_event = { id = sickle.6 days = 120 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    GRI = {
+                        country_event = { id = grim.1 days = 308 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    GRI = {
+                        country_event = { id = grim.2 days = 74 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    GRI = {
+                        country_event = { id = grim.3 days = 531 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    GRI = {
+                        country_event = { id = grim.4 days = 359 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    GRI = {
+                        country_event = { id = grim.5 days = 365 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    BOX = {
+                        country_event = { id = boxman.1 days = 365 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    BOX = {
+                        country_event = { id = boxman.2 days = 277 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    BOX = {
+                        country_event = { id = boxman.3 days = 222 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    BOX = {
+                        country_event = { id = boxman.4 days = 556 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    BOX = {
+                        country_event = { id = boxman.5 days = 656 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    ZUC = {
+                        country_event = { id = zucc.1 days = 94 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    ZUC = {
+                        country_event = { id = zucc.2 days = 1567 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    ZUC = {
+                        country_event = { id = zucc.3 days = 428 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    ZUC = {
+                        country_event = { id = zucc.4 days = 1158 }
+                    }
+            }
+    }
+}
+
+on_actions = {
+    on_startup = {
+            effect = {
+                    ZUC = {
+                        country_event = { id = zucc.5 days = 618 }
+                    }
+            }
+    }
+}

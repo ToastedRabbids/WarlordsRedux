@@ -1,0 +1,341 @@
+characters={
+	TOR_Toasted={
+		name="ToastedRabbids"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOR/Portrait_TOR_Toasted.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious infantry_officer infantry_leader media_personality inflexible_strategist  trait_engineer }
+			skill=5
+			attack_skill=3
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=5
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TOR_Dark={
+		name="DarkLeader56"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOR/Portrait_TOR_Dark.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless infantry_officer politically_connected urban_assault_specialist trait_engineer }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=marxism 
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TOR_Ramses={
+		name="Ramses"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOR/Portrait_TOR_Ramses.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold spotter gunnery_expert }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id=0
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	TOR_spaceman={
+		name="Spaceman"
+		portraits={
+			civilian={
+				large="gfx/leaders/TOR/Portrait_TOR_spaceman.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold spotter gunnery_expert navy_career_officer blockade_runner superior_tactician arctic_water_expert  }
+			skill=5
+			attack_skill=5
+			defense_skill=2
+			maneuvering_skill=5
+			coordination_skill=3
+			legacy_id=0
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=authoritarian_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	TOR_Villa={
+		name="Pancho Villa"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/Portrait_TOR_Villa.dds"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer trait_reckless war_hero trickster guerilla_fighter }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=0
+		}
+	}
+	TOR_Zapata={
+		name="Emilano Zapata"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/portrait_TOR_Zapata.dds"
+			}
+		}
+		corps_commander={
+			traits = { infantry_officer war_hero trickster inspirational_leader }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 4
+			legacy_id=0
+		}
+	}
+	TOR_Sonic={
+		name="Sonic O' Rice"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/portrait_TOR_Sonic.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster politically_connected JAP_samurai_lineage offensive_doctrine }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	TOR_Nacho={
+		name="Nacho Libre"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/portrait_TOR_Nacho.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless armor_officer trickster }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	TOR_Esqueleto={
+		name="Esqueleto"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/Portrait_TOR_Esqueleto.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer trait_engineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	TOR_Chavo={
+		name="El Chavo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/Portrait_TOR_Chavo.dds"
+			}
+		}
+		corps_commander={
+			traits={ bearer_of_artillery infantry_officer infantry_leader inflexible_strategist }
+			skill=1
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=memeism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TOR_demoham={
+		name="Demoham"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/portrait_TOR_demoham.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold aviation_enthusiast superior_tactician spotter air_controller flight_deck_manager }
+			skill=5
+			attack_skill=6
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+	TOR_redcheese={
+		name="Red Cheese"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/portrait_TOR_redcheese.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold navy_career_officer battleship_adherent spotter superior_tactician }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=3
+			coordination_skill=4
+			legacy_id=0
+		}
+	}
+	TOR_Kunai={
+		name="Kunai"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/Portrait_TOR_kunai.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly naval_lineage superior_tactician gunnery_expert }
+			skill=5
+			attack_skill=5
+			defense_skill=2
+			maneuvering_skill=4
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+	TOR_Cardenas={
+		name="Lazaro Cardenas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/portrait_TOR_Cardenas.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter gentlemanly }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	TOR_Ramon={
+		name="Don Ramon"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/Portrait_TOR_Ramon.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter bold superior_tactician }
+			skill=3
+			attack_skill=6
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+	TOR_stalin={
+		name="Young Sexy Stalin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TOR/Portrait_TOR_stalin.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+}

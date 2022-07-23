@@ -1,0 +1,24 @@
+units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 3552 # Danzig
+		task_force = {				
+			name = "Battleships, Battle Force"		# CO: Snyder
+			location = 3552 # Danzig
+			### Battleship Division 1 ###			
+			ship = { name = "Potato Ship" definition = battleship pride_of_the_fleet = yes start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = POT version_name = "Potato Class" } } }
+			ship = { name = "Collins Bois" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POT version_name = "Collins Class" } } }	
+		 	ship = { name = "Collins Bois 1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POT version_name = "Collins Class" } } }	
+			ship = { name = "Collins Bois 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = POT version_name = "Collins Class 3" } } }		
+			ship = { name = "Pboats" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = POT version_name = "Pboats" } } }
+			ship = { name = "Pboats 1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = POT version_name = "Pboats" } } }
+			ship = { name = "Dublin" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POT version_name = "Potato Cruiser" } } }	
+			ship = { name = "Potato Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POT version_name = "Potato Cruiser" } } }	
+			ship = { name = "Ireland" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POT version_name = "Marigi Time" } } }
+			ship = { name = "Marigi Time" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = POT version_name = "Marigi Time" } } }
+			}
+		}
+	}
+}

@@ -1,0 +1,337 @@
+characters={
+	POT_Marigi={
+		name="Marigi Potato"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Marigi.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer offensive_doctrine aggressive_assaulter media_personality brilliant_strategist trickster }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=potatoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	POT_Naval_Marigi={
+		name="Marigi Potato"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Marigi.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold caustic_personality superior_tactician spotter battleship_adherent silent_hunter }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+
+	POT_Bewilderson={
+		name="Bewilderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Bewilderson.dds"
+			}
+		}
+		field_marshal={
+			traits={ panzer_leader politically_connected trait_engineer armor_officer }
+			skill=5
+			attack_skill=4
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=redactedism_democratic
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	POT_Naval_Bewilderson={
+		name="Bewilderson"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Bewilderson.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold spotter aviation_enthusiast silent_hunter }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+
+	POT_Jr={
+		name="Marigi Potato Jr"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Jr.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold caustic_personality battleship_adherent silent_hunter }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			maneuvering_skill=5
+			coordination_skill=4
+			legacy_id=0
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=boxism_fascism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	POT_Army_Jr={
+		name="Marigi Potato Jr"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Jr.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster brilliant_strategist naval_liason naval_invader infantry_officer }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=boxism_fascism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	POT_Plank={
+		name="Plank"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Plank.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold sea_wolf silent_hunter blockade_runner }
+			skill=5
+			attack_skill=6
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=4
+			legacy_id=0
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=theocracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	POT_Army_Plank={
+		name="Plank"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Plank.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando trait_mountaineer adaptable  }
+			skill=5
+			attack_skill=6
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+
+
+	POT_Merigi={
+		name="Merigi"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Merigi.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando panzer_leader armor_officer  }
+			skill=1
+			attack_skill=7
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=anarchist_communism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	POT_Naval_Merigi={
+		name="Merigi"
+		portraits={
+			civilian={
+				large="gfx/leaders/POT/Portrait_POT_Merigi.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold sea_wolf }
+			skill=1
+			attack_skill=7
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	POT_Collins={
+		name="Micahel Collins"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POT/Portrait_POT_Collins.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster guerilla_fighter inflexible_strategist }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+}
+	POT_Brugha={
+		name="Cathal Brugha"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POT/portrait_POT_Brugha.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero trickster }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	POT_Lynch={
+		name="Liam Lynch"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POT/Portrait_POT_Lynch.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero old_guard defensive_doctrine }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	POT_Eamon={
+		name="Éamon de Valera"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POT/Portrait_POT_Eamon.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly naval_lineage superior_tactician }
+			skill=5
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+	POT_ODuffy={
+		name="Eoin O' Duffy"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POT/portrait_POT_ODuffy.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter gunnery_expert bold }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=3
+			legacy_id=0
+		}
+	}
+	POT_Mulcahy={
+		name="Mulcahy"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POT/Portrait_POT_Mulcahy.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+}

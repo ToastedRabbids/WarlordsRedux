@@ -1,4 +1,4 @@
-version="1.11.8"
+version="1.11.9"
 tags={
 	"Alternative History"
 	"Map"
@@ -8,4 +8,4 @@ tags={
 	"Utilities"
 }
 name="Warlords Redux"
-supported_version="1.11.8"
+supported_version="1.11.9"

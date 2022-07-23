@@ -1,0 +1,333 @@
+characters={
+	PON_Pontiff={
+		name="Pontiff"
+		portraits={
+			civilian={
+				large="gfx/leaders/PON/Portrait_PON_Pontiff.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist panzer_leader trait_engineer organisational_leader }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=maoism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PON_Yuming={
+		name="Tu Yuming"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_yuming.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious harsh_leader armor_officer defensive_doctrine }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PON_Erwin_Rommel={
+		name="Erwin Rommel"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_Rommel.dds"
+			}
+		}
+	field_marshal={
+		traits = { trickster trait_reckless war_hero armor_officer media_personality }
+		skill = 5
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 2
+		logistics_skill = 3
+		legacy_id=-1
+	}
+}
+
+	PON_Zhu_De={
+		name="Zhu De"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/portrait_PON_Zhu_de.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer organizer }
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+
+	PON_mao_zedong={
+		name="Mao Zedong"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_Mao.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious politically_connected defensive_doctrine }
+			skill=5
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	PON_vasil_boydev={
+		name="Vasil Boydev"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_vasil_boydev.dds"
+			}
+		}
+			corps_commander = {
+				traits = { cavalry_officer }
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 2
+				legacy_id = 0
+			}
+	}
+	PON_wang_yaowu={
+		name="Wang Yaowu"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/portrait_PON_wang_yaowu.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer defensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PON_konstantin_lukash={
+		name="Konstantin Lukash"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_konstantin_lukash.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+	PON_Karl_Donitz={
+		name="Karl Donitz"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_Donitz.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer seawolf }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=5
+			legacy_id=-1
+		}
+	}
+	PON_erich_raeder={
+		name="Erich Raeder"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_Raeder.dds"
+			}
+		}
+		navy_leader={
+			traits={ battleship_adherent naval_lineage }
+			skill=5
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=3
+			coordination_skill=3
+			legacy_id=-1
+		}
+	}
+	PON_alfred_saalwachter={
+		name="Alfred Saalwachter"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_saalwachter.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy bold }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=4
+			legacy_id=-1
+		}
+	}
+	PON_Thrawn={
+		name="Thrawn Vurawn"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_Thrawn.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly naval_lineage superior_tactician spotter blue_water_expert }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+	PON_Koga={
+		name="Mineichi Koga"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_koga.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold battleship_adherent superior_tactician spotter }
+			skill=5
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=4
+			coordination_skill=3
+			legacy_id=0
+		}
+	}
+	PON_gunther_lutjens={
+		name="Gunther Lutjens"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_Lutjens.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly navy_career_officer superior_tactician }
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=4
+			legacy_id=-1
+		}
+	}
+	PON_hiroaki_abe={
+		name="Hiroaki Abe"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_Abe.dds"
+			}
+		}
+		navy_leader={
+			traits={ battleship_adherent }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PON_atanas_shalapatov={
+		name="Atanas Shalapatov"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PON/Portrait_PON_atanas_shalapatov.dds"
+			}
+		}
+		navy_leader = {
+			traits = { old_guard_navy gentlemanly }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id = -1
+		}
+	}
+}

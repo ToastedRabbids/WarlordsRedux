@@ -1,0 +1,42 @@
+
+state = {
+	id = 834
+	name = "STATE_834"
+	manpower = 2483748
+	resources={
+		oil=20.000
+		aluminium=15.000
+	}
+	
+	state_category = large_city
+
+	history = {
+		owner = TOR
+		victory_points = {
+			6597 2 
+		}
+		victory_points = {
+			434 1 
+		}
+		buildings = {
+			dockyard = 3
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+			
+		}
+		add_core_of = TOR
+		add_core_of = RED
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
+	}
+
+	provinces = {
+		409 434 6597 9451 11409 11424 11546
+	}
+
+	local_supplies = 6.0 
+}

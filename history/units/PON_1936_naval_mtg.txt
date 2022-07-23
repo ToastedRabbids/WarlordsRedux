@@ -1,0 +1,35 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 6332 # Danzig
+		task_force = {				
+			name = "Battleships, Battle Force"		# CO: Snyder
+			location = 6332 # Danzig
+			### Battleship Division 1 ###			
+			ship = { name = "Pontiff Ship" definition = battleship pride_of_the_fleet = yes start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = PON version_name = "Pontiff Class" } } }
+			ship = { name = "Donitz Bois" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PON version_name = "Donitz Class" } } }	
+		 	ship = { name = "Donitz Bois 1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PON version_name = "Donitz Class" } } }	
+			ship = { name = "Donitz Bois 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PON version_name = "Donitz Class 3" } } }	
+			ship = { name = "Donitz Bois 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = PON version_name = "Donitz Class" } } }		
+			ship = { name = "Pboats" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PON version_name = "Pboats" } } }
+			ship = { name = "Pboats 1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PON version_name = "Pboats" } } }
+			ship = { name = "Ironers" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PON version_name = "Iron Cruiser" } } }	
+			ship = { name = "Königsberg" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PON version_name = "Iron Cruiser" } } }	
+			ship = { name = "Leipzig" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PON version_name = "Iron Cruiser" } } }	
+			ship = { name = "Deutschland" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PON version_name = "Gloria Prussia" } } }
+			ship = { name = "Gloria Prussia" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PON version_name = "Gloria Prussia" } } }
+			ship = { name = "Viva Germania" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PON version_name = "Gloria Prussia" } } }
+			ship = { name = "BIG EAGLE" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = PON version_name = "BIG EAGLE" } } }
+			 	ship= { name = "PONusives Personal Carriers" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = PON version_name = "Pontiffs Personal Carriers" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "PON" amount = 3 }			
+					cv_CAS_equipment_1 =  { owner = "PON" amount = 3 }					
+					cv_nav_bomber_equipment_1 =  { owner = "PON" amount = 3 }
+					}
+				}
+			}
+		}
+	}
+}

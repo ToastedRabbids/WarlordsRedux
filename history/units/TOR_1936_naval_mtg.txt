@@ -1,0 +1,24 @@
+units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 11670 # Danzig
+		task_force = {				
+			name = "Battleships, Battle Force"		# CO: Snyder
+			location = 11670 # Danzig
+			### Battleship Division 1 ###			
+			ship = { name = "Toasted Ship" definition = battleship pride_of_the_fleet = yes start_experience_factor = 0.25 equipment = { ship_hull_heavy_2 = { amount = 1 owner = TOR version_name = "Toasted Class" } } }
+			ship = { name = "Villa Bois" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TOR version_name = "Villa Class" } } }	
+		 	ship = { name = "Villa Bois 1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TOR version_name = "Villa Class" } } }	
+			ship = { name = "Villa Bois 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = TOR version_name = "Villa Class 3" } } }		
+			ship = { name = "Tboats" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = TOR version_name = "Tboats" } } }
+			ship = { name = "Tboats 1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = TOR version_name = "Tboats" } } }
+			ship = { name = "Jalisco" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TOR version_name = "Rabbid Cruiser" } } }	
+			ship = { name = "Rabbid Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TOR version_name = "Rabbid Cruiser" } } }	
+			ship = { name = "Mexico" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TOR version_name = "DarkStar" } } }
+			ship = { name = "DarkStar" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = TOR version_name = "DarkStar" } } }
+			}
+		}
+	}
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 4005214
+	resources={
+		steel=5.000
+		aluminium=5.000
+		tungsten=5
+		chromium=5
+		oil=5.000
+	}
+
+	
+	state_category = large_city
+
+	history={
+		owner = ZUC
+		victory_points = { 3561 15 }
+		victory_points = { 425 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 5
+		}
+		add_core_of = ZUC
+		add_core_of = RED
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+
+	provinces={
+		425 482 538 3500 3561 6501 6524 6582 9497 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,9 @@
+memeism_on_the_rise = {
+	icon = decision_category_icon_memeism_on_the_rise
+	picture = decision_category_picture_memeism_on_the_rise
+	visible = {
+		has_idea_with_trait = memeism_advocate
+
+
+	}
+}

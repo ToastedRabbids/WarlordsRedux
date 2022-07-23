@@ -1,0 +1,280 @@
+add_namespace = redacted
+
+#Redacted's Speech
+country_event = {
+	id = redacted.1
+	title = redacted.1.t
+	desc = redacted.1.d
+
+	picture = redacteds_speech-763
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		has_completed_focus = RED_redactedsspeech
+
+
+
+
+	}
+	mean_time_to_happen = { days = 1 }
+	timeout_days = 10
+	fire_for_sender = yes
+	major = yes
+	option = {
+		name = redacted.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+add_popularity = {
+    ideology = democratic
+    popularity = .10
+}
+
+
+
+add_political_power = 50
+
+
+unlock_national_focus = RED_hitormiss
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = redacted.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_popularity = {
+    ideology = fascism
+    popularity = .20
+}
+
+
+add_political_power = -50
+
+
+unlock_national_focus = RED_i_got_fucking_shot
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#LGBTQ+ March
+country_event = {
+	id = redacted.2
+	title = redacted.2.t
+	desc = redacted.2.d
+
+	picture = lgbtq_march-753
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = redacted.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_war_support = -0.10
+
+add_stability = 0.10
+
+add_command_power = -10
+
+add_political_power = 20
+		hidden_effect = {
+			
+
+		}
+	}
+	option = {
+		name = redacted.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_war_support = 0.10
+
+add_stability = -0.10
+
+add_command_power = 10
+
+add_political_power = -20
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Chaim Potok recovers from attack
+country_event = {
+	id = redacted.3
+	title = redacted.3.t
+	desc = redacted.3.d
+
+	picture = chaim_potok_recovers_from_attack-689
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = redacted.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 100
+
+add_stability = 0.20
+
+add_command_power = 10
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#The Veggietale Scandal
+country_event = {
+	id = redacted.4
+	title = redacted.4.t
+	desc = redacted.4.d
+
+	picture = the_veggietale_scandal-727
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = redacted.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = -100
+
+add_stability = -0.20
+
+add_war_support = -0.20
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Foundation of the Empire
+country_event = {
+	id = redacted.5
+	title = redacted.5.t
+	desc = redacted.5.d
+
+	picture = foundation_of_the_empire-973
+	is_triggered_only = yes
+	option = {
+		name = redacted.5.a
+
+		ai_chance = { factor = 1 }
+		add_political_power = 10
+
+add_stability = 0.05
+
+add_war_support = 0.05
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Fate of the LGBTQ
+country_event = {
+	id = redacted.6
+	title = redacted.6.t
+	desc = redacted.6.d
+
+	picture = fate_of_the_lgbtq-751
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		has_completed_focus = RED_status_of_lgbtq_people
+
+
+
+	}
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = redacted.6.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+
+
+add_stability = -0.10
+
+add_war_support = 0.10
+
+
+
+add_command_power = 150
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = redacted.6.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+
+add_stability = 0.10
+
+add_war_support = 0.10
+
+add_political_power = 150
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = redacted.6.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 200
+
+
+add_stability = -0.10
+
+add_war_support = -0.15
+
+add_command_power = 100
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+}

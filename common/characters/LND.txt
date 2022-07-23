@@ -1,0 +1,188 @@
+characters={
+	LND_land={
+		name="Land"
+		portraits={
+			civilian={
+				large="gfx/leaders/LND/Portrait_LND_Land.dds"
+			}
+		}
+		field_marshal={
+			traits={ desert_fox inspirational_leader }
+			skill=5
+			attack_skill=3
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=authoritarian_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LND_kanye_west={
+		name="Kanye West"
+		portraits={
+			civilian={
+				large="gfx/leaders/LND/Portrait_LND_Kanye.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_reckless infantry_officer politically_connected }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LND_suleiman_the_magnificent={
+		name="Suleiman the Magnificent"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LND/portrait_LND_Suleiman.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist infantry_leader infantry_expert }
+			skill=5
+			attack_skill=6
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LND_jayz={
+		name="Jay-Z"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LND/portrait_LND_Jay-Z.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist media_personality skilled_staffer panzer_leader }
+			skill=5
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	LND_osman_the_first={
+		name="Osman the First"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LND/portrait_LND_Osman.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist cavalry_leader trickster combined_arms_expert }
+			skill=5
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	LND_mehmed_the_conqueror={
+		name="Mehmed the Conqueror"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LND/portrait_LND_Mehmed.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist trait_engineer fortress_buster }
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	LND_no_i.d.={
+		name="No I.D."
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LND/portrait_LND_No_ID.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer infantry_leader trickster guerilla_fighter }
+			skill=3
+			attack_skill=2
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	LND_selim_the_grim={
+		name="Selim the Grim"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LND/portrait_LND_Selim.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader desert_fox trait_mountaineer }
+			skill=1
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	LND_alex_jones={
+		name="Alex Jones"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_8"
+			}
+		}
+		country_leader={
+			ideology=anti_revisionism
+			traits={ hawk captain_of_industry }
+			expire="1951.1.1.12"
+			id=-1
+		}
+	}
+}

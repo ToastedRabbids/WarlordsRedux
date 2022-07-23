@@ -1,0 +1,40 @@
+state={
+	id=836
+	name="Toad City"
+	resources={
+		steel=5.000
+		aluminium=5.000
+	}
+
+	history={
+		victory_points = {
+			12562 25
+		}
+		owner = YOS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			air_base = 1
+
+		}
+		add_core_of = YOS
+		add_core_of = RED
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3521 6484 9544 11466 12562 
+	}
+	manpower=2464600
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=9.0 
+}

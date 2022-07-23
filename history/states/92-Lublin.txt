@@ -1,0 +1,41 @@
+state={
+	id=92
+	name="STATE_92"
+	resources={
+		steel=10.000
+		rubber=5.000
+	}
+
+	history={
+		victory_points = {
+			11399 30
+		}
+		owner = YOS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 5
+			air_base = 5
+
+		}
+		add_core_of = YOS
+		add_core_of = RED
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+	 	3559 6580 9452 9521 11399 
+	}
+	manpower=3567092
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=9.0 
+}

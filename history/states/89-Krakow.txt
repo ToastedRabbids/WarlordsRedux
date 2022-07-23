@@ -1,0 +1,39 @@
+state={
+	id=89
+	name="STATE_89"
+
+	history={
+		victory_points = {
+			11411 1
+		}
+		#victory_points = {
+		#	6483 1
+		#}
+		owner = LND
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+
+		}
+		add_core_of = LND
+		add_core_of = UKR
+		add_core_of = RED
+
+	}
+
+	provinces={
+		3743 6431 6460 6483 9425 11411 11550 
+	}
+	manpower=2290300
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=5.0 
+
+	resources={
+		steel=5.000
+		chromium=20.000
+	}
+}

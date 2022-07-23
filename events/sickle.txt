@@ -1,0 +1,249 @@
+add_namespace = sickle
+
+#Zucc Spy captured
+country_event = {
+	id = sickle.1
+	title = sickle.1.t
+	desc = sickle.1.d
+
+	picture = zucc_spy_captured-793
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = sickle.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 50
+
+add_command_power = 25
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#SPY SHOT!
+country_event = {
+	id = sickle.2
+	title = sickle.2.t
+	desc = sickle.2.d
+
+	picture = spy_shot-678
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = sickle.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			add_command_power = -50
+
+add_war_support = -0.20
+
+
+		}
+	}
+}
+
+#Military March
+country_event = {
+	id = sickle.3
+	title = sickle.3.t
+	desc = sickle.3.d
+
+	picture = military_march-673
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = sickle.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		army_experience = 50
+
+air_experience = 50
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Manny Pacquiao loses to Floy Mayweather
+country_event = {
+	id = sickle.4
+	title = sickle.4.t
+	desc = sickle.4.d
+
+	picture = manny_pacquiao_loses_to_floy_mayweather-1029
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = sickle.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_war_support = -0.3
+
+add_stability = -0.2
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Court Martial of Private Sumbar
+country_event = {
+	id = sickle.5
+	title = sickle.5.t
+	desc = sickle.5.d
+
+	picture = court_martial_of_private_sumbar-820
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = sickle.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = 0.20
+
+add_popularity = {
+    ideology = democratic
+    popularity = .20
+}
+
+
+add_political_power = -50
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = sickle.5.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_stability = -0.20
+
+add_popularity = {
+    ideology = democratic
+    popularity = -0.20
+}
+
+
+add_political_power = 200
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Investigate the Old Refinery
+#country_event = {
+	#id = sickle.6
+	#title = sickle.6.t
+	#desc = sickle.6.d
+
+	#picture = investigate_the_old_refinery-970
+	#fire_only_once = yes
+	#trigger = {
+		SIC = {
+
+}
+
+	}
+	#mean_time_to_happen = { days = 120 }
+	#option = {
+		name = sickle.6.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	#option = {
+		name = sickle.6.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			country_event = {
+    #id = Sickle.7
+    #days = 10
+    #random = 20
+    #random_days = 10
+}
+
+
+
+		}
+	}
+}
+
+#RichMoe's Coup
+#country_event = {
+	#id = sickle.7
+	#title = sickle.7.t
+	#desc = sickle.7.d
+
+	#picture = richmoes_coup-857
+	#fire_only_once = yes
+	#is_triggered_only = yes
+	trigger = {
+		SIC = {
+
+}
+
+	}
+	#mean_time_to_happen = { days = 130 }
+	#option = {
+		name = sickle.7.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		set_politics = {
+	#ruling_party = democratic
+        elections_allowed = yes
+        last_election = 1935.1.1
+       }
+
+#add_popularity = {
+    ideology = democratic
+    popularity = 0.64
+}
+
+
+#add_political_power = 100
+
+
+		#hidden_effect = {
+			
+		}
+	}
+}

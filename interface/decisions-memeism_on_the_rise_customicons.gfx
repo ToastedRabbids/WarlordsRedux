@@ -1,0 +1,20 @@
+spriteTypes = { 
+	##Icon For Category: Memeism on the Rise
+	SpriteType = { 
+		name = "decision_category_icon_memeism_on_the_rise"
+		texturefile = "gfx/interface/decisions/decision_category_icon_memeism_on_the_rise.dds"
+	}
+
+	##Picture For: Memeism on the Rise
+	SpriteType = { 
+		name = "decision_category_picture_memeism_on_the_rise"
+		texturefile = "gfx/interface/decisions/decision_category_picture_memeism_on_the_rise.dds"
+	}
+
+	##Icon For: Its Gamer Time
+	SpriteType = { 
+		name = "decision_icon_its_gamer_time"
+		texturefile = "gfx/interface/decisions/decision_icon_its_gamer_time.dds"
+	}
+
+}

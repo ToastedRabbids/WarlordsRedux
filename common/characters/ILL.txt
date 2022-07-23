@@ -1,0 +1,331 @@
+characters={
+	ILL_Illusive={
+		name="Illusive"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILL/Portrait_ILL_Illusive.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_lineage superior_tactician blue_water_expert }
+			skill=5
+			attack_skill=3
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=4
+			legacy_id=0
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_KING_ZOG_DESC"
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ILL_Usay={
+		name="Usay"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Usay.dds"
+			}
+		}
+		field_marshal={
+			traits={ inflexible_strategist trait_engineer organisational_leader }
+			skill=5
+			attack_skill=2
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	ILL_Lee_Oliver={
+		name="Lee Oliver"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Oliver.dds"
+			}
+		}
+	corps_commander={
+		traits = { trait_reckless war_hero infantry_officer media_personality }
+		skill = 5
+		attack_skill = 5
+		defense_skill = 5
+		planning_skill = 2
+		logistics_skill = 2
+		legacy_id=-1
+	}
+}
+	ILL_SCP045={
+		name="SCP-045"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Durden.dds"
+			}
+		}
+	field_marshal={
+			traits={ media_personality trait_reckless commando  }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	ILL_Rayward={
+		name="Rayward54"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/portrait_ILL_Rayward.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious armor_officer panzer_leader offensive_doctrine }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ILL_monty={
+		name="Bernard Montgomery"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Monty.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist trait_cautious media_personality organizer logistics_wizard offensive_doctrine }
+			skill=5
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+	ILL_Reily_Reid={
+		name="Reily Reid"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Reid.dds"
+			}
+		}
+		corps_commander={
+			traits={ media_personality politically_connected swamp_fox  }
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=6
+			legacy_id=-1
+		}
+	}
+	ILL_Gott={
+		name="William Gott"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/portrait_ILL_Gott.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist armor_officer war_hero }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=0
+		}
+	}
+	ILL_Beckwithsmith={
+		name="Merton Beckwithsmith"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Beckwithsmith.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+	ILL_Adama={
+		name="William Adama"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Adama.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer superior_tactician battleship_adherent }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=-1
+		}
+	}
+	ILL_Richardo={
+		name="Richardo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Richardo.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer seawolf silent_hunter superior_tactician }
+			skill=5
+			attack_skill=5
+			defense_skill=5
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+	ILL_Cooler_Yoshi={
+		name="Cooler Yoshi Clone"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_CoolerYoshi.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer aviation_enthusiast caustic_personality }
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=5
+			coordination_skill=6
+			legacy_id=0
+		}
+	}
+	ILL_cunningham={
+		name="Andrew Cunningham"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_cunningham.dds"
+			}
+		}
+		navy_leader={
+			traits={ gunnery_expert bold navy_career_officer blockade_runner superior_tactician }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			maneuvering_skill=3
+			coordination_skill=4
+			legacy_id=0
+		}
+	}
+	ILL_College={
+		name="College"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_College.dds"
+			}
+		}
+		navy_leader={
+			traits={ lancer }
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			maneuvering_skill=4
+			coordination_skill=5
+			legacy_id=0
+		}
+	}
+	ILL_Charles={
+		name="Charles Forbes"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_Forbes.dds"
+			}
+		}
+		navy_leader={
+			traits={ gunnery_expert fly_swatter }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=3
+			legacy_id=0
+		}
+	}
+	ILL_Arthur{
+		name="Arthur Power"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ILL/Portrait_ILL_power.dds"
+			}
+		}
+		navy_leader={
+			traits={ gunnery_expert }
+			skill=1
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+}

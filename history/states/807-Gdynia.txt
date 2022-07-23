@@ -1,0 +1,48 @@
+
+state={
+	id=807
+	name="STATE_807"
+	manpower = 5713370
+	resources={
+		steel=12.000
+		aluminium=12.000
+		tungsten=12
+		oil=12.000
+	}
+
+	state_category = megalopolis
+	history={
+		owner = GRI
+		victory_points = {
+			9263 30
+		}
+		victory_points = {
+			3295 5
+		}
+		victory_points = {
+			279 1
+		}
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 0
+			industrial_complex = 5
+			dockyard = 5
+			air_base = 3
+			9263 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = GRI
+		add_core_of = KSH
+		add_core_of = RED
+		1938.3.12 = {
+			add_claim_by = GER
+		}
+	}
+
+	provinces={
+		243 279 334 389 3295 3324 3381 6347 9263 11232
+	}
+
+	local_supplies=12.0 
+}

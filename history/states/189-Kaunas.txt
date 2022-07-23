@@ -1,0 +1,39 @@
+
+state={
+	id=189
+	name="STATE_189"
+	resources={
+		tungsten=15
+		oil=5.000
+	}
+
+	history={
+		owner = ILL
+		victory_points = {
+			9483 25
+		}
+		victory_points = {
+			6314 1
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			6314 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = ILL
+		add_core_of = RED
+
+	}
+
+	provinces={
+		3337 3354 6314 9483 9499 9731 
+	}
+
+	local_supplies=0.0 
+	manpower=2697100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

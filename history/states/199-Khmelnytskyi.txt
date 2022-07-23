@@ -1,0 +1,32 @@
+
+state={
+	id=199
+	name="STATE_199"
+	manpower = 524022
+	resources={
+		steel=5
+		oil=5.000
+	}
+	
+	state_category = town
+
+	history={
+		victory_points = {
+			3457 3
+		}
+		owner = TOR
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 0
+			air_base = 3
+		}
+		add_core_of = TOR
+		add_core_of = RED
+	}
+
+	provinces={
+		462 3430 6429
+	}
+
+	local_supplies=4.0 
+}

@@ -1,0 +1,23 @@
+
+leader_traits = {
+	centrist_advocate = {
+		random = no
+		# Boosts Unaligned
+		sprite = 13
+		neutrality_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	memeism_advocate = {
+		random = no
+		# Boosts memeism
+		sprite = 13
+		memeism_drift = 0.2
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

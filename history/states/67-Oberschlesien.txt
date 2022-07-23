@@ -1,0 +1,37 @@
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 3502591
+	resources={
+		steel=5 # was: 60
+		aluminium=6 # was: 20
+		oil=4
+	}
+	
+	state_category = metropolis
+
+	history={
+		victory_points = {
+			11467 5
+		}
+		victory_points = {
+			9511 3
+		}
+		owner = SIC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 8
+			arms_factory = 1
+		}
+		add_core_of = SIC
+		add_core_of = SIL
+		add_core_of = RED
+	}
+
+	provinces={
+		479 6512 9457 9511 11467 
+	}
+
+	local_supplies=4.0 
+}

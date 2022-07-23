@@ -1,0 +1,33 @@
+
+state={
+	id=194
+	name="STATE_194" # Mozyr
+	manpower = 3834632
+	resources={
+		steel=10.000
+		aluminium=10.000
+		tungsten=10
+	}
+	state_category = megalopolis
+
+	history={
+		owner = DAM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 5
+			industrial_complex = 4
+			air_base = 3
+		}
+		victory_points = {
+			6232 30
+		}
+		add_core_of = DAM
+		add_core_of = RED
+	}
+
+	provinces={
+		215 3203 3293 3507 6232 6319 6556 9249 9554 11453 
+	}
+
+	local_supplies=0.0 
+}

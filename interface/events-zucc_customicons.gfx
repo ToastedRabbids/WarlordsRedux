@@ -1,0 +1,33 @@
+spriteTypes = { 
+	##Icon For: SPY CAPTURED
+	SpriteType = { 
+		name = "spy_captured-793"
+		texturefile = "gfx/interface/events/zucc-event/spy_captured-793.dds"
+	}
+
+	##Icon For: Alliance within Grim Communsit party
+	SpriteType = { 
+		name = "alliance_within_grim_communsit_party-1010"
+		texturefile = "gfx/interface/events/zucc-event/alliance_within_grim_communsit_party-1010.dds"
+	}
+
+	##Icon For: The Great Trial
+	SpriteType = { 
+		name = "the_great_trial-946"
+		texturefile = "gfx/interface/events/zucc-event/the_great_trial-946.dds"
+	}
+
+	##Icon For: The Great Promotion
+	SpriteType = { 
+		name = "the_great_promotion-949"
+		texturefile = "gfx/interface/events/zucc-event/the_great_promotion-949.dds"
+	}
+
+	##Icon For: Protest at Capital
+	SpriteType = { 
+		name = "protest_at_capital-1037"
+		texturefile = "gfx/interface/events/zucc-event/protest_at_capital-1037.dds"
+	}
+
+ 
+ }

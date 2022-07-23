@@ -1,0 +1,220 @@
+division_template = {
+	name = "NEO Femboy Army"
+	division_names_group = CAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 } 
+	}
+}
+
+division_template = {
+	name = "Astolfo Camels"  
+	division_names_group = CAN_CAV_01
+
+	regiments = {
+		camelry = { x = 0 y = 0 }
+		camelry = { x = 0 y = 1 }
+		camelry = { x = 1 y = 0 }
+		camelry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "War Thunder is a bad game"
+
+	division_names_group = CAN_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Femboy Mafia"  
+	division_names_group = AST_INF_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	##### Ejército de Cuba #####
+	division= {	# "1st Femboy Squad"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "NEO Femboy Army"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "Astolfo Camels"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "Astolfo Camels" 
+		start_experience_factor = 0.1
+
+	}
+	division= {	# "Femboy Mafia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "Femboy Mafia"
+		start_experience_factor = 0.1
+
+	}
+	division= {	# "Astolfo"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "War Thunder is a bad game" 
+		start_experience_factor = 0.1
+
+
+	}
+	
+	division= {	# "1st Femboy Squad"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "NEO Femboy Army"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "1st Femboy Squad"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "NEO Femboy Army"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "1st Femboy Squad"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "NEO Femboy Army"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "Femboy Mafia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "Femboy Mafia"
+		start_experience_factor = 0.1
+
+	}
+
+	division= {	# "Femboy Mafia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "Femboy Mafia"
+		start_experience_factor = 0.1
+
+	}
+
+	division= {	# "Femboy Mafia"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6558  # Krakow
+		division_template = "Femboy Mafia"
+		start_experience_factor = 0.1
+
+	}
+
+
+	##### No Notable Naval Forces #####
+}
+
+##### AIR WINGS #####
+air_wings = {
+    86 = {
+        fighter_equipment_0 = {
+            owner = "SPE"
+            amount = 5
+        }
+    }
+}
+
+air_wings = {
+    86 = {
+        CAS_equipment_1 = {
+            owner = "SPE"
+            amount = 3
+        }
+    }
+}
+
+air_wings = {
+    86 = {
+        tac_bomber_equipment_0 = {
+            owner = "SPE"
+            amount = 10
+        }
+    }
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SPE"
+		}
+		requested_factories = 2
+		progress = 0.54
+		efficiency = 100
+	}
+}

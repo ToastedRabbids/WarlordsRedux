@@ -1,0 +1,33 @@
+spriteTypes = { 
+	##Icon For: National Pet Day
+	SpriteType = { 
+		name = "national_pet_day-707"
+		texturefile = "gfx/interface/events/boxman-event/national_pet_day-707.dds"
+	}
+
+	##Icon For: Darth Revan's Speech
+	SpriteType = { 
+		name = "darth_revans_speech-987"
+		texturefile = "gfx/interface/events/boxman-event/darth_revans_speech-987.dds"
+	}
+
+	##Icon For: Assassination of Sir Meows Alot
+	SpriteType = { 
+		name = "assassination_of_sir_meows_alot-718"
+		texturefile = "gfx/interface/events/boxman-event/assassination_of_sir_meows_alot-718.dds"
+	}
+
+	##Icon For: Trial of the 7
+	SpriteType = { 
+		name = "trial_of_the_7-909"
+		texturefile = "gfx/interface/events/boxman-event/trial_of_the_7-909.dds"
+	}
+
+	##Icon For: Armory raided
+	SpriteType = { 
+		name = "armory_raided-939"
+		texturefile = "gfx/interface/events/boxman-event/armory_raided-939.dds"
+	}
+
+ 
+ }

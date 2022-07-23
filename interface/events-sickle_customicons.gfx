@@ -1,0 +1,45 @@
+spriteTypes = { 
+	##Icon For: Zucc Spy captured
+	SpriteType = { 
+		name = "zucc_spy_captured-793"
+		texturefile = "gfx/interface/events/sickle-event/zucc_spy_captured-793.dds"
+	}
+
+	##Icon For: SPY SHOT!
+	SpriteType = { 
+		name = "spy_shot-678"
+		texturefile = "gfx/interface/events/sickle-event/spy_shot-678.dds"
+	}
+
+	##Icon For: Military March
+	SpriteType = { 
+		name = "military_march-673"
+		texturefile = "gfx/interface/events/sickle-event/military_march-673.dds"
+	}
+
+	##Icon For: Manny Pacquiao loses to Floy Mayweather
+	SpriteType = { 
+		name = "manny_pacquiao_loses_to_floy_mayweather-1029"
+		texturefile = "gfx/interface/events/sickle-event/manny_pacquiao_loses_to_floy_mayweather-1029.dds"
+	}
+
+	##Icon For: Court Martial of Private Sumbar
+	SpriteType = { 
+		name = "court_martial_of_private_sumbar-820"
+		texturefile = "gfx/interface/events/sickle-event/court_martial_of_private_sumbar-820.dds"
+	}
+
+	##Icon For: Investigate the Old Refinery
+	SpriteType = { 
+		name = "investigate_the_old_refinery-970"
+		texturefile = "gfx/interface/events/sickle-event/investigate_the_old_refinery-970.dds"
+	}
+
+	##Icon For: RichMoe's Coup
+	SpriteType = { 
+		name = "richmoes_coup-857"
+		texturefile = "gfx/interface/events/sickle-event/richmoes_coup-857.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,45 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 6282 # Danzig
+		task_force = {				
+			name = "Battleships, Battle Force"		# CO: Snyder
+			location = 6282 # Danzig
+			### Battleship Division 1 ###			
+			ship = { name = "Miser Ship" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MIS version_name = "Maiost Class" } } }
+			ship = { name = "Rice Ship" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MIS version_name = "Maiost Class" } } }
+		 	ship = { name = "Yuri Bois 1" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Yuri Bois 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Yuri Bois 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Yuri Bois 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Yuri Bois 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Yuri Bois 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Yuri Bois 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Yuri Bois 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Yuri Bois 10" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = MIS version_name = "Yuri Class" } } }	
+			ship = { name = "Mboat Bois" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MIS version_name = "Mboat" } } }
+			ship = { name = "Mboat Gorls" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = MIS version_name = "Mboat" } } }
+			ship = { name = "Sendai" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "Henrich Himmler Crusier" } } }	
+			ship = { name = "MSS Himmler" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "Henrich Himmler Crusier" } } }	
+			ship = { name = "Jintsu" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "Henrich Himmler Crusier" } } }	
+			ship = { name = "MSS Biden" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "Henrich Himmler Crusier" } } }	
+			ship = { name = "Henrich's Crusier" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "Henrich Himmler Crusier" } } }
+			ship = { name = "Takao" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "N-WORD" } } }
+			ship = { name = "Chokai" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "N-WORD" } } }
+			ship = { name = "N-WORD" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "N-WORD" } } }
+			ship = { name = "Negus" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "N-WORD" } } }
+			ship = { name = "Jack" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = MIS version_name = "N-WORD" } } }
+			ship = { name = "BIG Chungus" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = MIS version_name = "BIG Chungus" } } }
+			 	ship= { name = "Misers Personal Carriers" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = MIS version_name = "Misers Personal Carriers" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "MIS" amount = 5 }			
+					cv_CAS_equipment_1 =  { owner = "MIS" amount = 5 }					
+					cv_nav_bomber_equipment_1 =  { owner = "MIS" amount = 5 }
+					}
+				}
+			}
+		}
+	}
+}

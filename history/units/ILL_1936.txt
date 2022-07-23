@@ -1,0 +1,247 @@
+division_template = {
+	name = "New Illusive Unit"
+	division_names_group = ENG_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+		engineer = { x = 0 y = 1 } 
+	}
+}
+
+division_template = {
+	name = "New California Riders"  
+	division_names_group = ENG_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bear Cars"
+
+	division_names_group = ENG_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Illusive Gang"  
+	division_names_group = AST_INF_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	##### Ejército de Cuba #####
+	division= {	# "1st New Illusive Unit"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "New Illusive Unit"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "Royal Hussar Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "New California Riders" 
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "Potokian Tiger"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "Bear Cars" 
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "1st New Illusive Unit"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "New Illusive Unit"
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "1st New Illusive Unit"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "New Illusive Unit"
+		start_experience_factor = 0.1
+
+
+	}
+
+	division= {	# "Illusive Gang"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "Illusive Gang"
+		start_experience_factor = 0.1
+
+	}
+
+	division= {	# "Illusive Gang"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "Illusive Gang"
+		start_experience_factor = 0.1
+
+	}
+
+	division= {	# "Royal Hussar Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "New California Riders" 
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "Potokian Tiger"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "Bear Cars" 
+		start_experience_factor = 0.1
+
+
+	}
+
+	division= {	# "Potokian Tiger"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "Bear Cars" 
+		start_experience_factor = 0.1
+
+
+	}
+	division= {	# "Potokian Tiger"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "Bear Cars" 
+		start_experience_factor = 0.1
+
+
+	}
+
+	division= {	# "1st New Illusive Unit"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6296 # Warszawa
+		division_template = "New Illusive Unit"
+		start_experience_factor = 0.1
+
+
+	}
+
+
+	##### No Notable Naval Forces #####
+}
+
+##### AIR WINGS #####
+air_wings = {
+    784 = {
+        fighter_equipment_0 = {
+            owner = "RED"
+            amount = 5
+        }
+    }
+}
+
+air_wings = {
+    784 = {
+        CAS_equipment_1 = {
+            owner = "RED"
+            amount = 5
+        }
+    }
+}
+
+air_wings = {
+    784 = {
+        tac_bomber_equipment_0 = {
+            owner = "RED"
+            amount = 5
+        }
+    }
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RED"
+		}
+		requested_factories = 2
+		progress = 0.54
+		efficiency = 100
+	}
+}

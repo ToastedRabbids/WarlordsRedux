@@ -1,0 +1,241 @@
+add_namespace = grim
+
+#The Election
+country_event = {
+	id = grim.1
+	title = grim.1.t
+	desc = grim.1.d
+
+	picture = the_election-1026
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = grim.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 90 }
+		add_popularity = {
+    ideology = democratic
+    popularity = 0.5
+}
+
+
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = grim.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 60 }
+		set_politics = {
+	ruling_party = communism
+        elections_allowed = yes
+        last_election = 1935.5.5        election_frequency = 5}
+add_popularity = {
+    ideology = communism
+    popularity = 0.64
+}
+
+
+
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = grim.1.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 25 }
+		set_politics = {
+	ruling_party = fascism
+        elections_allowed = yes
+        last_election = 1935.5.5
+        election_frequency = 5}
+	add_popularity = {
+    ideology = fascism
+    popularity = 0.64
+}
+
+
+
+
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = grim.1.f
+		trigger = {
+			
+		}
+		ai_chance = { factor = 25 }
+		set_politics = {
+	ruling_party = neutrality
+        elections_allowed = yes
+        last_election = 1935.5.5
+        election_frequency = 5}
+	add_popularity = {
+    ideology = neutrality
+    popularity = 0.64
+
+}
+
+
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = grim.1.e
+		trigger = {
+			
+		}
+		ai_chance = { factor = 15 }
+		set_politics = {
+	ruling_party = memeism
+        elections_allowed = yes
+        last_election = 1935.5.5
+        election_frequency = 5}
+	add_popularity = {
+    ideology = memeism
+    popularity = 0.64
+}
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Progressive Law Code 0109 Passes
+country_event = {
+	id = grim.2
+	title = grim.2.t
+	desc = grim.2.d
+
+	picture = progressive_law_code_0109_passes-745
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = grim.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			add_popularity = {
+    ideology = fascism
+    popularity = -0.5
+}
+
+
+add_popularity = {
+    ideology = democratic
+    popularity = 0.05
+}
+
+
+add_political_power = −150
+
+add_stability = 0.05
+
+add_war_support = -0.05
+
+
+		}
+	}
+}
+
+#Assassination of Governor Carl Marks
+country_event = {
+	id = grim.3
+	title = grim.3.t
+	desc = grim.3.d
+
+	picture = assassination_of_governor_carl_marks-718
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = grim.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_popularity = {
+    ideology = communuism
+    popularity = -0.7
+}
+
+
+add_political_power = -200
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Kujou Sara recovers
+country_event = {
+	id = grim.4
+	title = grim.4.t
+	desc = grim.4.d
+
+	picture = kujou_sara_recovers-958
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = grim.4.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 170
+
+add_war_support = 0.5
+
+
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Quasi Day
+country_event = {
+	id = grim.5
+	title = grim.5.t
+	desc = grim.5.d
+
+	picture = quasi_day-889
+	is_triggered_only = yes
+	option = {
+		name = grim.5.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		add_political_power = 40
+
+
+		hidden_effect = {
+			
+		}
+	}
+}

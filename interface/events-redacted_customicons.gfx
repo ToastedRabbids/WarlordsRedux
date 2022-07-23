@@ -1,0 +1,39 @@
+spriteTypes = { 
+	##Icon For: Redacted's Speech
+	SpriteType = { 
+		name = "redacteds_speech-763"
+		texturefile = "gfx/interface/events/redacted-event/redacteds_speech-763.dds"
+	}
+
+	##Icon For: LGBTQ+ March
+	SpriteType = { 
+		name = "lgbtq_march-753"
+		texturefile = "gfx/interface/events/redacted-event/lgbtq_march-753.dds"
+	}
+
+	##Icon For: Chaim Potok recovers from attack
+	SpriteType = { 
+		name = "chaim_potok_recovers_from_attack-689"
+		texturefile = "gfx/interface/events/redacted-event/chaim_potok_recovers_from_attack-689.dds"
+	}
+
+	##Icon For: The Veggietale Scandal
+	SpriteType = { 
+		name = "the_veggietale_scandal-727"
+		texturefile = "gfx/interface/events/redacted-event/the_veggietale_scandal-727.dds"
+	}
+
+	##Icon For: Foundation of the Empire
+	SpriteType = { 
+		name = "foundation_of_the_empire-973"
+		texturefile = "gfx/interface/events/redacted-event/foundation_of_the_empire-973.dds"
+	}
+
+	##Icon For: Fate of the LGBTQ
+	SpriteType = { 
+		name = "fate_of_the_lgbtq-751"
+		texturefile = "gfx/interface/events/redacted-event/fate_of_the_lgbtq-751.dds"
+	}
+
+ 
+ }
